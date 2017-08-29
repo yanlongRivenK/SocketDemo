@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yanlongrivenk.socketdemo.ClientTcp">
+
+
+    <TextView
+        android:id="@+id/show_message"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#6666"
+    />
+
+    <EditText
+        android:id="@+id/et"
+        android:hint="print_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+
+    <Button
+        android:id="@+id/sendMessage"
+        android:text="sendMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+    />
+
+   <Button
+       android:id="@+id/connect_service"
+       android:text="connect_service"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+   android:layout_marginTop="5dp"
+   />
+
+    <Button
+        android:id="@+id/disconnect"
+        android:text="disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+    />
+
+
+
+
+
+
+</LinearLayout>
